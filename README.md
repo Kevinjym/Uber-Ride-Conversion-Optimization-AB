@@ -125,6 +125,17 @@ Therefore, a moderate pricing strategy may be more effective than aggressive sur
 
 ---
 
+## Tools Used
+
+* Python
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* Jupyter Notebook
+
+---
+
 ## Recommendation
 
 Instead of maximizing price per ride, the platform should optimize for total revenue by maintaining sufficient completed ride volume.
@@ -135,10 +146,26 @@ A more balanced dynamic pricing strategy may help preserve customer demand while
 
 ## How to Run
 
+1. Clone this repository:
 
+```bash
+git clone <your-repository-url>
 
+cd uber-ride-conversion-analysis
+```
 
+2. Install the required Python packages:
 
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the Jupyter Notebook:
+```bash
+jupyter notebook notebooks/01_data_overview.ipynb
+```
+
+4. Run the notebook cells from top to bottom.
 
 ---
 
